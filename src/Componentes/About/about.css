@@ -1,0 +1,361 @@
+/*
+
+TemplateMo 546 Sixteen Clothing
+
+https://templatemo.com/tm-546-sixteen-clothing
+
+*/
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .about-heading {
+      background-image: url(../../assets//images/CHEC/ABT.avif)
+  }
+  .aboutmaincontainer{
+    width: 100%;
+  }
+  .page-heading {
+      padding: 210px 0px 130px 0px;
+      text-align: center;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
+  .page-heading .text-content h4 {
+      color: #f33f3f;
+      font-size: 22px;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 15px;
+  }
+  
+  .page-heading .text-content h2 {
+      color: #fff;
+      font-size: 62px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+  }
+  
+ .mainpara{
+    width: 85%;
+    margin: auto;
+ }
+.mainpara p {
+        font-size: 14px;
+        line-height: 2.5em;
+        max-width: 100%;
+        text-align: center;
+        color: #303030;
+        text-align: justify;
+        /* Justify the content */
+        font-family: 'Roboto',
+            sans-serif;
+        /* Add any other styles you find attractive */
+
+}
+.ParagraphMain{
+    display: flex;
+    margin-top: 20px;
+}
+ .paragraphbottom1{
+    max-width: 100%;
+    margin-left: 20px;
+}
+.ParagraphMain .paragraphbottom2 {
+    margin-left: 70px;
+    width: 90%;
+}
+.see-more-container{
+    display: none;
+}
+  .aboutVision1 {
+      width: 70%;
+      display: flex;
+      margin-left: 300px;
+      position: relative;
+      margin-top: 50px;
+  }
+.aboutVision1 p{
+    font-size: 14px;
+        line-height: 2.5em;
+        text-align: center;
+        color: #303030;
+        text-align: justify;
+        /* Justify the content */
+        font-family: 'Roboto',
+            sans-serif;
+        /* Add any other styles you find attractive */
+}
+.aboutVision2 p {
+    font-size: 14px;
+    line-height: 2.5em;
+    text-align: center;
+    color: #303030;
+    text-align: justify;
+    /* Justify the content */
+    font-family: 'Roboto',
+        sans-serif;
+    /* Add any other styles you find attractive */
+}
+.aboutVision1::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 40%;
+    transform: translateX(-50%);
+      width: 35%;
+      border-bottom: 4px solid #f33f3f;
+      
+      /* Adjust space above the line */
+      margin-bottom: -70px;
+      /* Adjust space below the line */
+  }
+ .aboutImg1,
+ .aboutImg2 {
+     max-width: 90%;
+     /* Ensure images don't exceed their parent container */
+     height: auto;
+     /* Maintain aspect ratio */
+     display: block;
+     /* Remove any extra spacing below images */
+     margin: 0 auto;
+     /* Center images within their parent container */
+            border-radius: 30px;
+            /* Adjust the border-radius value as needed */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            /* Add a subtle box shadow */
+        
+ }
+   .aboutVision2 {
+       width: 70%;
+       display: flex;
+       margin-left: 100px;
+       position: relative;
+       margin-top: 150px;
+       margin-bottom: 90px;
+   }
+
+ 
+  .AboutMainContaint {
+      position: relative;
+      padding-top: 30px;
+      padding-bottom: 60px;
+      /* Adjust padding as needed */
+  }
+.AboutMainContaint h2{
+    margin-bottom: 30px;
+}
+  .AboutMainContaint::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 25%;
+      /* Adjust the width of the border line */
+      border-bottom: 4px solid #f33f3f;
+  }
+  .Vision{
+    margin-top: 100px;
+  }
+
+   h2 {
+      margin: 25px 0;
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 40px;
+    color: #f33f3f;
+  }
+.Leaders {
+    width: 80%;
+    display: flex;
+    justify-content:space-around;
+    /* Add space between items */
+    align-items: center;
+    /* Center items vertically */
+    margin: 50px auto;
+    /* Center the container horizontally */
+}
+
+.Leaders>div {
+    text-align: center;
+    /* Center content within each div */
+}
+.Leaders img {
+    max-width: 60%;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Adjust the height as needed */
+    border-radius: 50%;
+    /* Make the image circular (if applicable) */
+}
+  .aboutleader{
+    font-size: 15px;
+  }
+  .Leaders h4{
+    font-family: Montserrat;
+    font-size: 1.2rem;
+  }
+  
+ @media (max-width: 992px){
+    .ParagraphMain .paragraphbottom1 {
+            width: 100%;
+        }
+        .ParagraphMain .paragraphbottom2 {
+            margin-left: 60px;
+            width: 85%;
+        }
+                 .aboutVision1 {
+                     width: 60%;
+                     display: block;
+                     margin-left: 300px;
+                     position: relative;
+                     margin-top: 70px;
+                 }
+                                 
+ }
+ .see-more-container {
+     text-align: center;
+     margin-top: 20px;
+ }
+
+ #see-more-btn {
+  
+     /* Green background color */
+     border: none;
+     /* White text color */
+     padding: 10px 190px;
+     /* Add some padding */
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     cursor: pointer;
+     border-radius: 15px;
+     /* Add rounded corners */
+ }
+
+ #see-more-btn:hover {
+     background-color: #f33f3f;
+     /* Darker green on hover */
+ }
+
+  @media (max-width: 650px) {
+    .ParagraphMain.hidden {
+            display: none !important;
+        }
+    
+        .see-more-container {
+            display: block !important;
+        }
+                .ParagraphMain {
+                    display: block;
+                }
+                                .ParagraphMain .paragraphbottom1 {
+                                    width: 100%;
+                                    margin-left: 0px;
+                                }
+                
+                                .ParagraphMain .paragraphbottom2 {
+                                    margin-left: 0px;
+                                    width: 100%;
+                                }
+  }
+   @media (max-width: 480px) {
+.aboutVision1 {
+        width: 70%;
+        display: block;
+       margin: auto;
+       top: 60px;
+    }
+         .aboutVision2 {
+             width: 70%;
+             display: block;
+             margin: auto;
+             top: 150px;
+             position: relative;
+         }
+         .Vision h2{
+            margin-top:-100px
+         }
+                 .aboutImg1,
+                 .aboutImg2 {
+                width:90%;
+                 }
+                 .aboutVision2 p {
+                    width: 200%;
+                    margin: auto;
+                    padding: 30px 700px;
+                 }
+                                 .aboutVision2 p {
+                                     width: 400%;
+                                     margin: auto;
+                                     padding: 30px 0;
+                                 }
+                                                                 .MainLeadership {
+                                                                    margin-top: 200px;
+                                                                    
+                                                                 }
+                                                                 .Leaders{
+                                                                    display: block;
+                                                                 }
+                  
+   }
+
+
+
+
+        @media (max-width: 993px) {
+            .aboutVision1 {
+                width: 70%;
+                display: block;
+                margin: auto;
+                top: 60px;
+            }
+    
+            .aboutVision2 {
+                width: 70%;
+                display: block;
+                margin: auto;
+                top: 150px;
+                position: relative;
+            }
+    
+            .Vision h2 {
+                margin-top: -100px
+            }
+    
+            .aboutImg1,
+            .aboutImg2 {
+                width: 90%;
+            }
+    
+            .aboutVision2 p {
+                width: 200%;
+                margin: auto;
+                padding: 30px 700px;
+            }
+    
+            .aboutVision2 p {
+                width: 400%;
+                margin: auto;
+                padding: 30px 0;
+            }
+    
+            .MainLeadership {
+                margin-top: 200px;
+            }
+    
+        }
+  
+  
+  
+  
+ 
+  
+
