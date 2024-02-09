@@ -16,7 +16,7 @@ function About() {
     <>
       <div className="aboutmaincontainer">
         <div className="page-heading about-heading header-text">
-          <div className="container">
+          <div className="container aboutmaincontainer">
             <div className="row">
               <div className="col-md-12">
                 <div className="text-content">
