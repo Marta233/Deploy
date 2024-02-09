@@ -208,7 +208,7 @@ body {
         }
         .ParagraphMain .paragraphbottom2 {
             margin-left: 60px;
-            width: 85%;
+            width: 100%;
         }
                  .aboutVision1 {
                      width: 100%;
@@ -285,7 +285,7 @@ body {
          }
                  .aboutImg1,
                  .aboutImg2 {
-                width:90%;
+                width:100%;
                  }
                  .aboutVision2 p {
                     width: 100%;
@@ -312,14 +312,14 @@ body {
 
         @media (max-width: 993px) {
             .aboutVision1 {
-                width: 70%;
+                width: 100%;
                 display: block;
                 margin: auto;
                 top: 60px;
             }
     
             .aboutVision2 {
-                width: 70%;
+                width: 100%;
                 display: block;
                 margin: auto;
                 top: 150px;
@@ -336,13 +336,13 @@ body {
             }
     
             .aboutVision2 p {
-                width: 200%;
+                width: 100%;
                 margin: auto;
                 padding: 30px 700px;
             }
     
             .aboutVision2 p {
-                width: 400%;
+                width: 100%;
                 margin: auto;
                 padding: 30px 0;
             }
