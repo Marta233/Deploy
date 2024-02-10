@@ -91,7 +91,7 @@ function About() {
           </div>
         </div>
         <div className="aboutVision2 ">
-          <div className="Vision">
+          <div className="Vision1">
             <h2>Our Vission</h2>
             <p>
               To assert a global presence by excelling in both quality and
