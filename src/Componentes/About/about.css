@@ -230,7 +230,8 @@ body {
      /* Green background color */
      border: none;
      /* White text color */
-     padding: 10px 190px;
+     width: 100%;
+     padding: 10px;
      /* Add some padding */
      text-align: center;
      text-decoration: none;
