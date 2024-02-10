@@ -26,6 +26,57 @@ function About() {
             </div>
           </div>
         </div>
+
+        <div className="aboutVision1">
+          <div className="col-lg-6 col-12">
+            <img src={img3} className="aboutImg1" />
+          </div>
+          <div className=" Vision">
+            <h2>Our Mission</h2>
+            <p>
+              To drive financial growth, enhance production through machinery
+              expansion, and actively contribute to our community by creating
+              employment opportunities for the unemployed.
+            </p>
+          </div>
+        </div>
+        <div className="aboutVision2 ">
+          <div className="Vision">
+            <h2>Our Vission</h2>
+            <p>
+              To assert a global presence by excelling in both quality and
+              quantity, setting benchmarks that transcend international
+              standards.
+            </p>
+          </div>
+          <div className="col-lg-6 col-12">
+            <img src={img1} className="aboutImg2" />
+          </div>
+        </div>
+
+        <div className="MainLeadership">
+          <h2>Our Leadership</h2>
+          <div className="Leaders">
+            <div>
+              <img src={img2} />
+              <h4>Melaku Welde</h4>
+              <div className="aboutleader">Manager</div>
+              <span>+251954445344</span>
+            </div>
+            <div>
+              <img src={img2} />
+              <h4>Misganaw menjeta </h4>
+              <div className="aboutleader"> deputy manager</div>
+              <span>+2519434343</span>
+            </div>
+            <div>
+              <img src={img2} />
+              <h4>H/meskel wolde</h4>
+              <div className="aboutleader">CO-FOUNDER</div>
+              <span>+251945454535</span>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
