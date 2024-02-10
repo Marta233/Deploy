@@ -26,6 +26,56 @@ function About() {
             </div>
           </div>
         </div>
+        <div className="AboutMainContaint">
+          <h2>Our History </h2>
+          <div className="mainpara">
+            <div className="col-lg-6 col-12 mb-3">
+              <p>
+                Mele Textile PLC, founded in 2022 by a visionary and dynamic
+                Ethiopian entrepreneurial family, stands at the forefront of
+                innovation and excellence in the textile industry. From its
+                modest origins with just 2 sewing machines and 3 employees, the
+                company has flourished into a powerhouse with 20 cutting-edge
+                sewing machines and a skilled workforce of 23. From its
+                inception,
+              </p>
+            </div>
+            <div className="see-more-container">
+              {buttonVisible && (
+                <button
+                  onClick={handleSeeMoreClick}
+                  id="see-more-btn"
+                  color="black"
+                >
+                  {" "}
+                  See More
+                </button>
+              )}
+            </div>
+            <div
+              className={
+                showParagraph ? "ParagraphMain" : "ParagraphMain hidden"
+              }
+            >
+              <div>
+                <p className="paragraphbottom1">
+                  With a commitment to quality and innovation, Distinguished for
+                  producing top-notch T-shirts, dresses, and a variety of other
+                  textile products.
+                </p>
+              </div>
+
+              <div>
+                <p className="paragraphbottom2">
+                  Mele Textile PLC's growth is a testament to its commitment to
+                  quality and excellence, and as it continues to expand, it
+                  remains dedicated to making a lasting impact on the textile
+                  sector while contributing to the economic growth of Ethiopia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div className="aboutVision1">
           <div className="col-lg-6 col-12">

@@ -142,6 +142,7 @@ body {
 
  
   .AboutMainContaint {
+    width: 100%;
       position: relative;
       padding-top: 30px;
       padding-bottom: 60px;
