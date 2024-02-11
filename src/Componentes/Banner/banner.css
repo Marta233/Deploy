@@ -51,7 +51,7 @@ color: #f33f3f;
 	letter-spacing: 1.5px;
 }
 @media (max-width: 768px) {
-    .banner .text-content {
+    .banner-item {
 		width: 100%;
 	}
      
@@ -67,6 +67,8 @@ color: #f33f3f;
 
 /* Style for your custom dots */
 .slick-dots .custom-dot {
+    width: 10px;
+    height: 10px;
     background-color: #000;
     border: none;
     border-radius: 100%;
