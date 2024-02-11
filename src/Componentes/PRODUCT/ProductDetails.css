@@ -48,11 +48,13 @@ https://www.tooplate.com/view/2127-little-fashion
     }
   }
   
-  body {
-      background: var(--white-color);
-      font-family: var(--body-font-family);    
-      position: relative;
-  }
+ body {
+   font-family: 'Poppins', sans-serif;
+   overflow-x: hidden;
+   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+ }
   
   /*---------------------------------------
     TYPOGRAPHY               
