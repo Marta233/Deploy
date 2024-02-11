@@ -7,11 +7,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.banner {
-    position: relative;
-    text-align: center;
-}
+
 .banner-item {
+    width: 100%;
     padding: 100px 0;
     background-size: cover;
     background-repeat: no-repeat;
