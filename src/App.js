@@ -13,7 +13,6 @@ function App() {
           path="/"
           element={
             <>
-              <Banner />
               <Product />
             </>
           }
