@@ -9,27 +9,29 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
-
 .banner-item {
     width: 100%;
     padding: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+ 
     
 }
 .banner-item-01 {
     background-image: url('../../assets/images/unsplash/ban.avif'); 
-    width: 100%;
+    background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
 }
 .banner-item-02 {
     background-image: url('../../assets/images/CHEC/A1.jpg'); 
-    width: 100%;
+    background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
 }
 .banner-item-03 {
     background-image: url('../../assets/images/slider_img1.jpg'); 
-    width: 100%;
+    background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
 }
 
 .banner-item .text-content {
@@ -38,7 +40,7 @@ body {
     color: #fff;
 }
 .text-content{
-    margin-top: 180px;
+    margin-top: 280px;
 }
 .text-content h2 {
 color: #f33f3f;
@@ -54,17 +56,11 @@ color: #f33f3f;
 	letter-spacing: 1.5px;
 }
 @media (max-width: 768px) {
-    .banner-item {
-		width: 100%;
-	}
-     
         .text-content h2 {
             font-size: 28px;
         }
-    
         .text-content h4 {
             font-size: 35px;
-            letter-spacing: 1.5px;
         }
 }
 
