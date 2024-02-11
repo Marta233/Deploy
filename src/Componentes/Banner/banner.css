@@ -18,12 +18,15 @@ body {
 }
 .banner-item-01 {
     background-image: url('../../assets/images/unsplash/ban.avif'); 
+    width: 100%;
 }
 .banner-item-02 {
     background-image: url('../../assets/images/CHEC/A1.jpg'); 
+    width: 100%;
 }
 .banner-item-03 {
     background-image: url('../../assets/images/slider_img1.jpg'); 
+    width: 100%;
 }
 
 .banner-item .text-content {
@@ -51,36 +54,22 @@ color: #f33f3f;
     .banner .text-content {
 		width: 100%;
 	}
-        .banner-item .text-content {
-            text-align: center;
-            width: 100%;
-            color: #fff;
-        }
-  
+     
         .text-content h2 {
-            color: #f33f3f;
             font-size: 28px;
-            text-transform: uppercase;
-            font-weight: 700;
         }
     
         .text-content h4 {
-            color: #fff;
             font-size: 35px;
-            margin-bottom: 65px;
-            text-transform: uppercase;
             letter-spacing: 1.5px;
         }
 }
 
 /* Style for your custom dots */
 .slick-dots .custom-dot {
-    width: 10px;
-    height: 10px;
     background-color: #000;
     border: none;
     border-radius: 100%;
-    margin-right: 5px;
   position: relative;
     filter: blur(2px);
     transition: filter 0.3s ease;
