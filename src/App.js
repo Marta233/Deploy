@@ -1,15 +1,23 @@
-import './App.css';
+import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import About from "./Componentes/About/About.js";
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-
+import Product from "./Componentes/PRODUCT/Product.js";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div >
-      <About/>
-    </div>
+    <Router>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Product />
+            </>
+          }
+        />
+      </Routes>
+    </Router>
   );
 }
 
