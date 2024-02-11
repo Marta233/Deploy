@@ -14,6 +14,7 @@ function App() {
           element={
             <>
               <Banner />
+              <Product />
             </>
           }
         />
