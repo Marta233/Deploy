@@ -82,7 +82,7 @@ color: #f33f3f;
     height: 10px;
     background-color: #000;
     border: none;
-    border-radius: 90%;
+    border-radius: 100%;
     margin-right: 5px;
   position: relative;
     filter: blur(2px);
